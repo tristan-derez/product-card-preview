@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+$display-font: Fraunces, sans-serif;
+$body-font: Montserrat, sans-serif;
+
+$background-color: #f2eae2;
+$card-color: #ffffff;
+$title-color: #1c232b;
+$font-color: #6c7289;
+$secondary-color: #3d8168;
+$hover-color: #1a4032;
+
+body {
+  font: 0.875rem $body-font;
+  color: $font-color;
+  background-color: $background-color;
+  padding: 16px;
+  margin: 0;
+}
+
+.card {
+  background-color: $card-color;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 25px;
+}
+
+h1 {
+  font: 2rem $display-font;
+  color: $title-color;
+}
+
+.prices {
+  font: 100% $display-font;
+  color: $secondary-color;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font: 0.875rem $body-font;
+  background-color: $secondary-color;
+  width: 100%;
+  color: $card-color;
+  border: none;
+  border-radius: 8px;
+  margin: 0;
+  padding-block: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  background-color: $hover-color;
+}
