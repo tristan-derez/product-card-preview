@@ -52,12 +52,14 @@ h1 {
   color: #3d8168;
   padding: 1.5rem 0 1.25rem 0;
   margin: 0;
+  font-weight: bold;
 }
 
 del {
-  font: 0.813rem Fraunces, sans-serif;
+  font: 0.813rem Montserrat, sans-serif;
   color: #6c7289;
   padding: 0 0 0 1.188rem;
+  font-weight: 500;
 }
 
 .card-img {
@@ -77,6 +79,7 @@ button {
   padding-block: 0.938rem;
   cursor: pointer;
   text-align: center;
+  font-weight: bold;
 }
 
 button:hover {
