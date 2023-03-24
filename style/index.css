@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 body {
   font: 0.875rem Montserrat, sans-serif;
+  line-height: 1.438rem;
   color: #6c7289;
   background-color: #f2eae2;
   padding: 16px;
@@ -11,24 +12,43 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
+  margin: 0;
 }
 
 .card-content {
-  padding: 25px;
+  padding-inline: 1.563rem;
+  padding-block: 1.5rem;
+}
+
+.category {
+  font: 0.75 Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font: 2rem Fraunces, sans-serif;
+  margin: 0;
+  padding-block: 0.75rem;
+  line-height: 2rem;
   color: #1c232b;
+}
+
+.description {
+  margin: 0;
+  padding: 1rem 0 0 0;
 }
 
 .prices {
   font: 100% Fraunces, sans-serif;
   color: #3d8168;
+  padding: 1.5rem 0 1.25rem 0;
+  margin: 0;
 }
 
 img {
   max-width: 100%;
+  margin: 0;
 }
 
 button {

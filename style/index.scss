@@ -11,6 +11,7 @@ $hover-color: #1a4032;
 
 body {
   font: 0.875rem $body-font;
+  line-height: 1.438rem;
   color: $font-color;
   background-color: $background-color;
   padding: 16px;
@@ -21,24 +22,43 @@ body {
   background-color: $card-color;
   border-radius: 10px;
   overflow: hidden;
+  margin: 0;
 }
 
 .card-content {
-  padding: 25px;
+  padding-inline: 1.563rem;
+  padding-block: 1.5rem;
+}
+
+.category {
+  font: 0.75 $body-font;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font: 2rem $display-font;
+  margin: 0;
+  padding-block: 0.75rem;
+  line-height: 2rem;
   color: $title-color;
+}
+
+.description {
+  margin: 0;
+  padding: 1rem 0 0 0;
 }
 
 .prices {
   font: 100% $display-font;
   color: $secondary-color;
+  padding: 1.5rem 0 1.25rem 0;
+  margin: 0;
 }
 
 img {
   max-width: 100%;
+  margin: 0;
 }
 
 button {
