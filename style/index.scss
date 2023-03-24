@@ -50,10 +50,18 @@ h1 {
 }
 
 .prices {
-  font: 100% $display-font;
+  display: flex;
+  align-items: center;
+  font: 2rem $display-font;
   color: $secondary-color;
   padding: 1.5rem 0 1.25rem 0;
   margin: 0;
+}
+
+del {
+  font: 0.813rem $display-font;
+  color: $font-color;
+  padding: 0 0 0 1.188rem;
 }
 
 img {
